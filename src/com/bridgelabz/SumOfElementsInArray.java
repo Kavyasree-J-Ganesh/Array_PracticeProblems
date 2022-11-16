@@ -9,7 +9,8 @@ public class SumOfElementsInArray {
         return sum;
     }
     public static void main(String[] args){
-       int[] arr1 = sumOfElements({1,8,4,3,9,6});
-       System.out.println();
+       int[] arr1 = {1,8,4,3,9,6};
+        int sum = sumOfElements(arr1);
+       System.out.println(sum);
     }
 }
